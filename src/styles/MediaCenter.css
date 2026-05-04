@@ -1,0 +1,19 @@
+.media-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .media-tabs button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background: #ffa32b;
+    cursor: pointer;
+  }
+  
+  .media-tabs button.active {
+    background: #ef2d19;
+    color: white;
+  }

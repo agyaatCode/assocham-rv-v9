@@ -1,0 +1,23 @@
+.newsletter {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .news-card {
+    background: white;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .news-card button {
+    background: #fc6821;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+  }

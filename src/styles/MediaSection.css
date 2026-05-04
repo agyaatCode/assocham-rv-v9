@@ -1,0 +1,18 @@
+/* src/components/MediaSection.css */
+.media-section .tab-button {
+    /* Same as above - you can reuse or copy */
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: all 0.3s ease;
+    border: none;
+    background: transparent;
+    color: #555;
+  }
+  
+  .media-section .tab-button.active {
+    background: linear-gradient(90deg, #fb551e, #ffa32b);
+    color: white;
+    box-shadow: 0 10px 25px rgba(251, 85, 30, 0.3);
+  }

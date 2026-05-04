@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Manrope:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --brand-red: #8b0f1a;
+  --brand-red-dark: #6d0b14;
+  --brand-gold: #e8a83a;
+  --brand-gold-light: #f4c95d;
+  --brand-cream: #fff9ec;
+}
+
+body {
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #171717;
+  background: #ffffff;
+}
+
+/* Ticker marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Smooth scroll for anchor nav */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+/* Custom selection */
+::selection {
+  background: #e8a83a;
+  color: #1a1a1a;
+}
+
+/* Custom scrollbar for dropdown (Sectors) */
+/* Scrollbar for WebKit browsers (Chrome, Edge, Safari) */
+.max-h-\[70vh\]::-webkit-scrollbar {
+  width: 6px;
+}
+
+.max-h-\[70vh\]::-webkit-scrollbar-thumb {
+  background-color: #e8a83a;
+  border-radius: 6px;
+}
+
+.max-h-\[70vh\]::-webkit-scrollbar-track {
+  background-color: #fff9ec;
+}
+
+/* Firefox support */
+.max-h-\[70vh\] {
+  scrollbar-width: thin;
+  scrollbar-color: #e8a83a #fff9ec;
+}

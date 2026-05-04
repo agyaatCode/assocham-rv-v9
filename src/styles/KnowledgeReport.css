@@ -1,0 +1,30 @@
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+  }
+  
+  .report-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .report-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .report-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .report-card button {
+    background: #fb551e;
+    border: none;
+    padding: 8px 14px;
+    color: #fff;
+    border-radius: 20px;
+  }
